@@ -1,33 +1,38 @@
 {
-    "data": {"url": "https://raw.githubusercontent.com/zhxnlee/VegaLite_3179/main/Cancer/total-cancer-deaths-by-type.csv"},
-    "title":  {"text":"Cancer Deaths throughout the Years", "fontSize": 20, "offset": 20,"subtitle":"Visualising the trend of each Cancer Type","subtitleColor": "grey","subtitlePadding":10},
-    "background":null, 
-    "params": [
-      {
-        "name": "Continent_Selection",
-        "bind":{
-          "input": "select",
-          "options": [
-            null, 
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/zhxnlee/VegaLite_3179/main/Cancer/total-cancer-deaths-by-type.csv"
+  },
+  "width": 550,
+  "height": 450,
+  "title":  {"text":"Cancer Deaths throughout the Years", "fontSize": 20, "offset": 20,"subtitle":"Visualising the trend of each Cancer Type","subtitleColor": "grey","subtitlePadding":10},
+  "params": [
+    {
+      "name": "Continent_Selection",
+      "bind":{
+        "input": "select",
+        "options": [
+          null, 
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"        
+          ],"labels":[
+            "All Continents", 
             "North America",
             "South America",
             "Europe",
             "Africa",
             "Asia",
-            "Oceania"        
-            ],"labels":[
-              "All Continents", 
-              "North America",
-              "South America",
-              "Europe",
-              "Africa",
-              "Asia",
-              "Oceania" 
-              ],
-            "name": "Continent   "
-        }
-      }],
-     "transform": [
+            "Oceania" 
+            ],
+          "name": "Continent  "
+      }
+    }],
+  "encoding": {"x": {"field": "Year", "type": "temporal"}},
+   "transform": [
       {"fold": [
         "Liver cancer", "Kidney cancer", "Lip and oral cavity cancer",
         "Tracheal, bronchus, and lung cancer", "Larynx cancer", "Gallbladder and biliary tract cancer",
@@ -38,13 +43,14 @@
         "Esophageal cancer", "Testicular cancer", "Nasopharynx cancer", "Other pharynx cancer",
         "Colon and rectum cancer", "Non-melanoma skin cancer", "Mesothelioma"
       ], "as": ["Cancer Type", "Number of Deaths"]},
-      {"filter": "Continent_Selection == null || datum.Continents == Continent_Selection" }
+   
+     
+    {"filter": "Continent_Selection == null || datum.Continents == Continent_Selection" }
     ],
-    "mark": "line",
-    "encoding": {
-      "x": {"field": "Year", "type": "temporal"},
-      "y": {"field": "Number of Deaths", "type": "quantitative", "aggregate": "sum"},
-      "color": {"field": "Cancer Type", "type": "nominal" ,"scale": {"range":[          "#4A148C",
+  "layer": [
+    {
+      "encoding": {
+        "color": {"field": "Cancer Type", "type": "nominal", "title": "Cancer Type","scale": {"range":[          "#4A148C",
       "#D1C4E9",
       "#7E57C2", 
       "#5E35B1",
@@ -71,9 +77,70 @@
       "#795548",
       "#3E2723",
       "#90A4AE",
-      "#546E7A"]}}
-      
+      "#546E7A"]}},
+        "y": {"field": "Number of Deaths", "type": "quantitative", "aggregate":"sum", "title": "Total Number of Deaths"}
+      },
+      "layer": [
+        {"mark": "line"},
+        {
+          "transform": [{"filter": {"param": "hover", "empty": false}}],
+          "mark": "point"
+        }
+      ]
     },
-
-    "height": 400, "width": 500
-  }
+    {
+      "transform": [
+        {"pivot": "Cancer Type", "value": "Number of Deaths", "groupby": ["Year"]}
+      ],
+      "mark": "rule",
+      "encoding": {
+        "opacity": {"condition": {"value": 0.3, "param": "hover"}, "value": 0},
+        "tooltip": [
+           {"field": "Liver cancer", "type": "quantitative", "title": "Liver cancer"},
+      {"field": "Kidney cancer", "type": "quantitative", "title": "Kidney cancer"},
+      {"field": "Lip and oral cavity cancer", "type": "quantitative", "title": "Lip and oral cavity cancer"},
+      {"field": "Tracheal, bronchus, and lung cancer", "type": "quantitative", "title": "Tracheal, bronchus, and lung cancer"},
+      {"field": "Larynx cancer", "type": "quantitative", "title": "Larynx cancer"},
+      {"field": "Gallbladder and biliary tract cancer", "type": "quantitative", "title": "Gallbladder and biliary tract cancer"},
+      {"field": "Malignant skin melanoma", "type": "quantitative", "title": "Malignant skin melanoma"},
+      {"field": "Leukemia", "type": "quantitative", "title": "Leukemia"},
+      {"field": "Hodgkin lymphoma", "type": "quantitative", "title": "Hodgkin lymphoma"},
+      {"field": "Multiple myeloma", "type": "quantitative", "title": "Multiple myeloma"},
+      {"field": "Other neoplasms", "type": "quantitative", "title": "Other neoplasms"},
+      {"field": "Breast cancer", "type": "quantitative", "title": "Breast cancer"},
+      {"field": "Prostate cancer", "type": "quantitative", "title": "Prostate cancer"},
+      {"field": "Thyroid cancer", "type": "quantitative", "title": "Thyroid cancer"},
+      {"field": "Stomach cancer", "type": "quantitative", "title": "Stomach cancer"},
+      {"field": "Bladder cancer", "type": "quantitative", "title": "Bladder cancer"},
+      {"field": "Uterine cancer", "type": "quantitative", "title": "Uterine cancer"},
+      {"field": "Ovarian cancer", "type": "quantitative", "title": "Ovarian cancer"},
+      {"field": "Cervical cancer", "type": "quantitative", "title": "Cervical cancer"},
+      {"field": "Brain and central nervous system cancer", "type": "quantitative", "title": "Brain and central nervous system cancer"},
+      {"field": "Non-Hodgkin lymphoma", "type": "quantitative", "title": "Non-Hodgkin lymphoma"},
+      {"field": "Pancreatic cancer", "type": "quantitative", "title": "Pancreatic cancer"},
+      {"field": "Esophageal cancer", "type": "quantitative", "title": "Esophageal cancer"},
+      {"field": "Testicular cancer", "type": "quantitative", "title": "Testicular cancer"},
+      {"field": "Nasopharynx cancer", "type": "quantitative", "title": "Nasopharynx cancer"},
+      {"field": "Other pharynx cancer", "type": "quantitative", "title": "Other pharynx cancer"},
+      {"field": "Colon and rectum cancer", "type": "quantitative", "title": "Colon and rectum cancer"},
+      {"field": "Non-melanoma skin cancer", "type": "quantitative", "title": "Non-melanoma skin cancer"},
+      {"field": "Mesothelioma", "type": "quantitative", "title": "Mesothelioma"},
+      {"field": "Year", "type": "temporal", "format": "%Y"}
+        ]
+      },
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "fields": ["Year"],
+            "nearest": true,
+            "on": "mouseover",
+            "clear": "mouseout"
+          }
+        }
+      ]
+    }
+  ],
+  "config": {"title": {"fontSize": 20}}
+}

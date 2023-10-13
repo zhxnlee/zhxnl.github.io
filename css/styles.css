@@ -187,8 +187,8 @@ body p{
 
 #trendcancerdeathtype{
     position:absolute;
-    width: 54%; 
-    height: 575px; 
+    width: 58%; 
+    height: 625px; 
     float: right;
     display:inline-block;
     padding-right: 25px;
@@ -197,13 +197,13 @@ body p{
     border-radius: 25px;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 2px 2px 2px 2px #e5e5e5;
-    margin-left:42%;
+    margin-left:40%;
     padding-top:25px;
     
 }
 
 .trendcancerdeathtypetext{
-    margin-right: 60%; height: 100px;
+    margin-right: 62%; height: 100px;
     margin-left:5%;
     height: 550px;
    
