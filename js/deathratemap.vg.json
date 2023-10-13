@@ -104,7 +104,7 @@
             "scale": {
               "type": "threshold",
               "domain": [50,100,150,200,250],
-              "range": ["#FFF3DA", "#DFCCFB", "#D0BFFF", "#BEADFA", "#463582","#1E0D5A"]
+              "range": ["#bfcbdb",  "#a4a2a8", "#df8879",  "#b04238", "#991f17","#4c0f0b"]
             }
           },
           "tooltip": [
