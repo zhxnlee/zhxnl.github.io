@@ -58,7 +58,7 @@
     {"filter": "YearSelection == null || datum.Year ==  YearSelection"},
     {"filter": "Continent_Selection == null || datum.Continents == Continent_Selection" }
   ],
-  "mark": "bar",
+  "layer":[{"mark":{"type":"rule","strokeWidth":3},
   "encoding": {
     "y": {
       "field": "Cancer Type",
@@ -109,9 +109,64 @@
     },
     "tooltip": [
     {"field": "Cancer Type", "type": "nominal", "title": "Cancer Type"},
-    {"field": "Number of Deaths", "type": "quantitative"}
+    {"field": "Number of Deaths", "type": "quantitative","aggregate":"sum"}
   ]
-  },
+  }},
+  {"mark":{"type":"point" , "filled": true,"size":60},
+  "encoding": {
+    "y": {
+      "field": "Cancer Type",
+      "type": "nominal",
+      "title": "Cancer Type",
+      "sort": "-x"
+      
+    },
+    "x": {
+      "aggregate": "sum",
+      "field": "Number of Deaths",
+      "type": "quantitative",
+      "title": "Total Number of Deaths"
+
+    },
+    "color": {
+      "field": "Cancer Type",  
+      "type": "nominal",
+      "title": "Cancer Type",  
+      "scale": {"range":[          "#4A148C",
+      "#D1C4E9",
+      "#7E57C2", 
+      "#5E35B1",
+      "#E3F2FD",
+      "#90CAF9",
+      "#2196F3",
+      "#1565C0",
+      "#B2EBF2",
+      "#26C6DA",
+      "#0097A7",
+      "#006064",
+      "#E8F5E9",
+      "#A5D6A7",
+      "#4CAF50",
+      "#2E7D32",
+      "#1B5E20",
+      "#F9FBE7",
+      "#DCE775",
+      "#C0CA33",
+      "#827717",
+      "#FFE082",
+      "#FFB300",
+      "#BCAAA4",
+      "#795548",
+      "#3E2723",
+      "#90A4AE",
+      "#546E7A"]}  
+    },
+    "tooltip": [
+    {"field": "Cancer Type", "type": "nominal", "title": "Cancer Type"},
+    {"field": "Number of Deaths", "type": "quantitative","aggregate":"sum"}
+  ]
+  }}],
+  
   "width": 400,
   "height": 400
 }

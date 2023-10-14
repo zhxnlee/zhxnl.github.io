@@ -1,0 +1,88 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {"text": "Deaths from Cancer by Continents", "fontSize": 20, "offset": 20},
+    "data": {
+      "url": "https://raw.githubusercontent.com/zhxnlee/zhxnl.github.io/main/Cancer/annual-number-of-deaths-by-cause.csv",
+      "format": {"type": "csv"}
+    },
+    "params": [
+      {
+        "name": "Continent_Selection",
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "North America",
+            "South America",
+            "Europe",
+            "Africa",
+            "Asia",
+            "Oceania"
+          ],
+          "labels": [
+            "All Continents",
+            "North America",
+            "South America",
+            "Europe",
+            "Africa",
+            "Asia",
+            "Oceania"
+          ],
+          "name": "Continent  "
+        }
+      },
+      {
+        "name": "YearSelection",
+        "value": 1990,
+        "bind": {
+          "input": "range",
+          "min": 1990,
+          "max": 2019,
+          "step": 1,
+          "name": "Year   "
+        }
+      }
+    ],
+    "transform": [
+     
+      {
+        "fold": [
+          "Cancers"
+        ],
+        "as": ["Cause of Death", "Number of Deaths"]
+      },
+      {"filter": "YearSelection == null || datum.Year ==  YearSelection"},
+      {"filter": "datum.Continents != '#N/A'" },
+      {
+        "filter": "Continent_Selection == null || datum.Continents == Continent_Selection"
+      }
+    ],
+    "mark": "bar",
+    "encoding": {
+      "y": {
+        "field": "Continents",
+        "type": "nominal",
+        "title": "Cause of Death",
+        "sort": "-x"
+      },
+      "x": {
+        "aggregate": "sum",
+        "field": "Number of Deaths",
+        "type": "quantitative",
+        "title": "Total Number of Deaths"
+      },
+      "color": {
+        "field": "Continents",  
+        "type": "nominal",
+        "title": "Cause of Death",  
+        "scale": {"range": ["#9d8a84"
+        ,"#d3ac2b","#f4f3ea","#cbd0d8", "#34678a","#000000" ]}},
+      
+      "tooltip": [
+        {"field": "Continents", "type": "nominal", "title": "Continents"},
+        {"field": "Number of Deaths", "type": "quantitative"}
+      ]
+    },
+    "width": 300,
+    "height": 400
+  }
