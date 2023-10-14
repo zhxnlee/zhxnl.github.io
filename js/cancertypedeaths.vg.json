@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {"text":"Total Cancer Deaths by Type", "fontSize": 20, "offset": 20,"subtitle":"Number of Deaths for each Cancer Type","subtitleColor": "grey","subtitlePadding":10},
   "data": {
-    "url": "https://raw.githubusercontent.com/zhxnlee/VegaLite_3179/main/Cancer/total-cancer-deaths-by-type.csv",
+    "url": "https://raw.githubusercontent.com/zhxnlee/zhxnl.github.io/main/Cancer/total-cancer-deaths-by-type.csv",
     "format": {
       "type": "csv"
     }

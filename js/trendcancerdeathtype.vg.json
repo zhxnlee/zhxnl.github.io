@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/zhxnlee/VegaLite_3179/main/Cancer/total-cancer-deaths-by-type.csv"
+    "url": "https://raw.githubusercontent.com/zhxnlee/zhxnl.github.io/main/Cancer/total-cancer-deaths-by-type.csv"
   },
   "width": 550,
   "height": 450,

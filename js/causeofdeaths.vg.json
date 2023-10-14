@@ -2,13 +2,37 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {"text":"Cause of Deaths", "fontSize": 20, "offset": 20},
   "data": {
-    "url": "https://raw.githubusercontent.com/zhxnlee/VegaLite_3179/main/Cancer/annual-number-of-deaths-by-cause.csv",
+    "url": "https://raw.githubusercontent.com/zhxnlee/zhxnl.github.io/main/Cancer/annual-number-of-deaths-by-cause.csv",
     "format": {
       "type": "csv"
     }
     
   },
   "params": [
+    {
+      "name": "Continent_Selection",
+      "bind":{
+        "input": "select",
+        "options": [
+          null, 
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"        
+          ],"labels":[
+            "All Continents", 
+            "North America",
+            "South America",
+            "Europe",
+            "Africa",
+            "Asia",
+            "Oceania" 
+            ],
+          "name": "Continent  "
+      }
+    },
     {
       "name": "YearSelection",
       "value": 1990,
@@ -58,7 +82,8 @@
   ],
   "as": ["Cause of Death", "Number of Deaths"]
 },
-    {"filter": "YearSelection == null || datum.Year ==  YearSelection"}
+    {"filter": "YearSelection == null || datum.Year ==  YearSelection"},
+    {"filter": "Continent_Selection == null || datum.Continents == Continent_Selection" }
   ],
   "mark": "bar",
   "encoding": {
