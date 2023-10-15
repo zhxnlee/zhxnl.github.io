@@ -9,6 +9,17 @@
     
 }
 
+.cancerpercentagelabel{
+    position:absolute;
+    padding-top: 500px;
+    margin-left:3%;
+}
+
+.deathratelabel{
+    position:absolute;
+   
+    margin-left:50%;
+}
 
 .title h1{
     font-family: 'Roboto', sans-serif;
@@ -117,6 +128,8 @@ body p{
     
 }
 
+
+
 #cancerpercentagemap{
     position:absolute;
     width:45%; 
@@ -153,12 +166,13 @@ body p{
 }
 
 .cancerpercentagetext{
-    padding-top:25px;
+    padding-top:100px;
     text-align: center;
     height: 150px;
     padding-bottom: 25px;
     margin-left: 10%;
     margin-right: 10%;
+    padding-bottom: 100px;
    
 }
 
@@ -189,6 +203,12 @@ body p{
     padding-top:100px;
 }
 
+.cancertypedeathslabel{
+    position: absolute;
+    padding-top: 650px;
+    margin-left: 3%;
+}
+
 .trendcancerdeathtypecontainer{
     padding-top:125px;
 }
@@ -209,6 +229,14 @@ body p{
     padding-top:25px;
     
 }
+
+.trendcancerdeathtypelabel{
+    position: absolute;
+    margin-left:42%;
+    padding-top:630px;
+}
+
+
 
 .trendcancerdeathtypetext{
     margin-right: 62%; height: 100px;
@@ -242,5 +270,5 @@ body p{
 
 .smokingdeathratecontainer{
     padding-bottom: 100px;
-    padding-top:75px;
+    padding-top:200px;
 }

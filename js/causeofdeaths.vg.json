@@ -8,6 +8,7 @@
   "params": [
     {
       "name": "Continent_Selection",
+      "value": "World",
       "bind": {
         "input": "select",
         "options": [
@@ -226,6 +227,7 @@
         ]
       }
     }
+  
   ],
   "width": 300,
   "height": 400

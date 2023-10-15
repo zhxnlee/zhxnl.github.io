@@ -22,10 +22,11 @@
     },
     {
       "name": "Continent_Selection",
+      "value":"World",
       "bind":{
         "input": "select",
         "options": [
-          null, 
+          "World", 
           "North America",
           "South America",
           "Europe",

@@ -5,14 +5,14 @@
   },
   "width": 550,
   "height": 450,
-  "title":  {"text":"Cancer Deaths throughout the Years", "fontSize": 20, "offset": 20,"subtitle":"Visualising the trend of each Cancer Type","subtitleColor": "grey","subtitlePadding":10},
+  "title":  {"text":"Cancer Deaths throughout the Years", "fontSize": 20, "offset": 20,"subtitle":"Visualising the trend of death rates per 100,000 people for each Cancer Type","subtitleColor": "grey","subtitlePadding":10},
   "params": [
     {
       "name": "Continent_Selection",
       "bind":{
         "input": "select",
         "options": [
-          null, 
+          "World", 
           "North America",
           "South America",
           "Europe",
@@ -30,6 +30,24 @@
             ],
           "name": "Continent  "
       }
+    },
+    {
+      "name": "smallervalues",
+      "value": 2200000,
+      "bind":{
+        "input": "select",
+        "options": [
+          2200000, 
+          500000,
+          5000    
+          ],"labels":[
+            "All values", 
+            "less than 1,600,000",
+            "less than 180,000"
+
+            ],
+          "name": "Smaller Values  "
+      }
     }],
   "encoding": {"x": {"field": "Year", "type": "temporal"}},
    "transform": [
@@ -45,7 +63,8 @@
       ], "as": ["Cancer Type", "Number of Deaths"]},
    
      
-    {"filter": "Continent_Selection == null || datum.Continents == Continent_Selection" }
+    {"filter": "Continent_Selection == null || datum.Continents == Continent_Selection" },
+    {"filter": "datum['Number of Deaths'] < smallervalues" }
     ],
   "layer": [
     {

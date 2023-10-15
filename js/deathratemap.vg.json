@@ -104,13 +104,13 @@
           "type": "quantitative",
           "scale": {
             "type": "threshold",
-            "domain": [50,150,250,350],
+            "domain": [50,150,250,300],
             "range": ["#fdbe85", "#fd8d3c", "#a63603", "#5b1e02","#000000"]
           }
         },
         "tooltip": [
           {"field": "Entity", "type": "nominal", "title": "Entity"},
-          {"field": "Cancer", "type": "quantitative", "title": "Cancer Global Percentage(%)"}
+          {"field": "Cancer", "type": "quantitative", "title": "Cancer deaths per 100,000 people"}
         ]
       }
     }
