@@ -1,36 +1,34 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {"text":"Cause of Deaths", "fontSize": 20, "offset": 20},
+  "title": {"text": "Cause of Deaths", "fontSize": 20, "offset": 20},
   "data": {
     "url": "https://raw.githubusercontent.com/zhxnlee/zhxnl.github.io/main/Cancer/annual-number-of-deaths-by-cause.csv",
-    "format": {
-      "type": "csv"
-    }
-    
+    "format": {"type": "csv"}
   },
   "params": [
     {
       "name": "Continent_Selection",
-      "bind":{
+      "bind": {
         "input": "select",
         "options": [
-          "World", 
+          "World",
           "North America",
           "South America",
           "Europe",
           "Africa",
           "Asia",
-          "Oceania"        
-          ],"labels":[
-            "All Continents", 
-            "North America",
-            "South America",
-            "Europe",
-            "Africa",
-            "Asia",
-            "Oceania" 
-            ],
-          "name": "Continent  "
+          "Oceania"
+        ],
+        "labels": [
+          "All Continents",
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "name": "Continent  "
       }
     },
     {
@@ -44,169 +42,191 @@
         "name": "Year   "
       }
     }
- ],
+  ],
   "transform": [
     {
-  "fold": [
-    "Meningitis",
-    "Alzheimers disease and other dementias",
-    "Parkinsons disease",
-    "Nutritional deficiencies",
-    "Malaria",
-    "Drowning",
-    "Interpersonal violence",
-    "Maternal disorders",
-    "HIV/AIDS",
-    "Drug use disorders",
-    "Tuberculosis",
-    "Cardiovascular diseases",
-    "Lower respiratory infections",
-    "Neonatal disorders",
-    "Alcohol use disorders",
-    "Self-harm",
-    "Exposure to forces of nature",
-    "Diarrheal diseases",
-    "Environmental heat and cold exposure",
-    "Cancers",
-    "Conflict and terrorism",
-    "Diabetes mellitus",
-    "Chronic kidney disease",
-    "Poisonings",
-    "Protein-energy malnutrition",
-    "Road injuries",
-    "Chronic respiratory diseases",
-    "Cirrhosis and other chronic liver diseases",
-    "Digestive diseases",
-    "Fire, heat, and hot substances",
-    "Acute hepatitis"
-  ],
-  "as": ["Cause of Death", "Number of Deaths"]
-},
+      "fold": [
+        "Meningitis",
+        "Alzheimers disease and other dementias",
+        "Parkinsons disease",
+        "Nutritional deficiencies",
+        "Malaria",
+        "Drowning",
+        "Interpersonal violence",
+        "Maternal disorders",
+        "HIV/AIDS",
+        "Drug use disorders",
+        "Tuberculosis",
+        "Cardiovascular diseases",
+        "Lower respiratory infections",
+        "Neonatal disorders",
+        "Alcohol use disorders",
+        "Self-harm",
+        "Exposure to forces of nature",
+        "Diarrheal diseases",
+        "Environmental heat and cold exposure",
+        "Cancers",
+        "Conflict and terrorism",
+        "Diabetes mellitus",
+        "Chronic kidney disease",
+        "Poisonings",
+        "Protein-energy malnutrition",
+        "Road injuries",
+        "Chronic respiratory diseases",
+        "Cirrhosis and other chronic liver diseases",
+        "Digestive diseases",
+        "Fire, heat, and hot substances",
+        "Acute hepatitis"
+      ],
+      "as": ["Cause of Death", "Number of Deaths"]
+    },
     {"filter": "YearSelection == null || datum.Year ==  YearSelection"},
-    {"filter": "Continent_Selection == null || datum.Continents == Continent_Selection" }
-  
+    {
+      "filter": "Continent_Selection == null || datum.Continents == Continent_Selection"
+    }
   ],
-  "layer":[{"mark": {"type":"rule","strokeWidth":3},
-  "encoding": {
-    "y": {
-      "field": "Cause of Death",
-      "type": "nominal",
-      "title": "Cause of Death",
-      "sort": "-x"
-      
+  "layer": [
+    {
+      "mark": {"type": "rule", "strokeWidth": 3},
+      "encoding": {
+        "y": {
+          "field": "Cause of Death",
+          "type": "nominal",
+          "title": "Cause of Death",
+          "sort": "-x"
+        },
+        "x": {
+          "aggregate": "sum",
+          "field": "Number of Deaths",
+          "type": "quantitative",
+          "title": "Total Number of Deaths"
+        },
+        "color": {
+          "field": "Cause of Death",
+          "type": "nominal",
+          "title": "Cause of Death",
+          "scale": {
+            "range": [
+              "#F3E5F5",
+              "#CE93D8",
+              "#AB47BC",
+              "#8E24AA",
+              "#4A148C",
+              "#D1C4E9",
+              "#7E57C2",
+              "#5E35B1",
+              "#E3F2FD",
+              "#90CAF9",
+              "#2196F3",
+              "#1565C0",
+              "#B2EBF2",
+              "#26C6DA",
+              "#0097A7",
+              "#006064",
+              "#E8F5E9",
+              "#A5D6A7",
+              "#4CAF50",
+              "#2E7D32",
+              "#1B5E20",
+              "#F9FBE7",
+              "#DCE775",
+              "#C0CA33",
+              "#827717",
+              "#FFE082",
+              "#FFB300",
+              "#BCAAA4",
+              "#795548",
+              "#3E2723",
+              "#90A4AE",
+              "#546E7A"
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "Cause of Death",
+            "type": "nominal",
+            "title": "Cause of Death"
+          },
+          {
+            "field": "Number of Deaths",
+            "type": "quantitative",
+            "aggregate": "sum"
+          }
+        ]
+      }
     },
-    "x": {
-      "aggregate": "sum",
-      "field": "Number of Deaths",
-      "type": "quantitative",
-      "title": "Total Number of Deaths"
-
-    },
-    "color": {
-      "field": "Cause of Death",  
-      "type": "nominal",
-      "title": "Cause of Death",  
-      "scale": {"range": [
-          "#F3E5F5",
-          "#CE93D8",
-          "#AB47BC",
-          "#8E24AA",
-          "#4A148C",
-          "#D1C4E9",
-          "#7E57C2", 
-          "#5E35B1",
-          "#E3F2FD",
-          "#90CAF9",
-          "#2196F3",
-          "#1565C0",
-          "#B2EBF2",
-          "#26C6DA",
-          "#0097A7",
-          "#006064",
-          "#E8F5E9",
-          "#A5D6A7",
-          "#4CAF50",
-          "#2E7D32",
-          "#1B5E20",
-          "#F9FBE7",
-          "#DCE775",
-          "#C0CA33",
-          "#827717",
-          "#FFE082",
-          "#FFB300",
-          "#BCAAA4",
-          "#795548",
-          "#3E2723",
-          "#90A4AE",
-          "#546E7A"
-        ]}  
-    },
-    "tooltip": [
-    {"field": "Cause of Death", "type": "nominal", "title": "Cause of Death"},
-    {"field": "Number of Deaths", "type": "quantitative"}
-  ]
-  }},
-  {"mark": {"type":"point" , "filled": true,"size":60},
-  "encoding": {
-    "y": {
-      "field": "Cause of Death",
-      "type": "nominal",
-      "title": "Cause of Death",
-      "sort": "-x"
-      
-    },
-    "x": {
-      "aggregate": "sum",
-      "field": "Number of Deaths",
-      "type": "quantitative",
-      "title": "Total Number of Deaths"
-
-    },
-    "color": {
-      "field": "Cause of Death",  
-      "type": "nominal",
-      "title": "Cause of Death",  
-      "scale": {"range": [
-          "#F3E5F5",
-          "#CE93D8",
-          "#AB47BC",
-          "#8E24AA",
-          "#4A148C",
-          "#D1C4E9",
-          "#7E57C2", 
-          "#5E35B1",
-          "#E3F2FD",
-          "#90CAF9",
-          "#2196F3",
-          "#1565C0",
-          "#B2EBF2",
-          "#26C6DA",
-          "#0097A7",
-          "#006064",
-          "#E8F5E9",
-          "#A5D6A7",
-          "#4CAF50",
-          "#2E7D32",
-          "#1B5E20",
-          "#F9FBE7",
-          "#DCE775",
-          "#C0CA33",
-          "#827717",
-          "#FFE082",
-          "#FFB300",
-          "#BCAAA4",
-          "#795548",
-          "#3E2723",
-          "#90A4AE",
-          "#546E7A"
-        ]}  
-    },
-    "tooltip": [
-    {"field": "Cause of Death", "type": "nominal", "title": "Cause of Death"},
-    {"field": "Number of Deaths", "type": "quantitative"}
-  ]
-  }}]
-  ,
+    {
+      "mark": {"type": "point", "filled": true, "size": 60},
+      "encoding": {
+        "y": {
+          "field": "Cause of Death",
+          "type": "nominal",
+          "title": "Cause of Death",
+          "sort": "-x"
+        },
+        "x": {
+          "aggregate": "sum",
+          "field": "Number of Deaths",
+          "type": "quantitative",
+          "title": "Total Number of Deaths"
+        },
+        "color": {
+          "field": "Cause of Death",
+          "type": "nominal",
+          "title": "Cause of Death",
+          "scale": {
+            "range": [
+              "#F3E5F5",
+              "#CE93D8",
+              "#AB47BC",
+              "#8E24AA",
+              "#4A148C",
+              "#D1C4E9",
+              "#7E57C2",
+              "#5E35B1",
+              "#E3F2FD",
+              "#90CAF9",
+              "#2196F3",
+              "#1565C0",
+              "#B2EBF2",
+              "#26C6DA",
+              "#0097A7",
+              "#006064",
+              "#E8F5E9",
+              "#A5D6A7",
+              "#4CAF50",
+              "#2E7D32",
+              "#1B5E20",
+              "#F9FBE7",
+              "#DCE775",
+              "#C0CA33",
+              "#827717",
+              "#FFE082",
+              "#FFB300",
+              "#BCAAA4",
+              "#795548",
+              "#3E2723",
+              "#90A4AE",
+              "#546E7A"
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "Cause of Death",
+            "type": "nominal",
+            "title": "Cause of Death"
+          },
+          {
+            "field": "Number of Deaths",
+            "type": "quantitative",
+            "aggregate": "sum"
+          }
+        ]
+      }
+    }
+  ],
   "width": 300,
   "height": 400
 }
