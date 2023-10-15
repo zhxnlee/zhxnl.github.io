@@ -26,7 +26,7 @@
 #causeofdeaths{
     position:absolute;
     width: 53%; 
-    height: 650px; 
+    height: 660px; 
     float: left;
     padding-left: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,6 +49,10 @@
    
 }
 
+.causeofdeathslabel{
+    margin-left:3%;
+    padding-top: 75px;
+}
 body h1{
     font-family: 'Roboto', sans-serif;   
     font-size: 46px;
@@ -95,6 +99,7 @@ body p{
     color: rgb(77, 154, 122);
 }
 
+
 .cancertypedeathstitle h3{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
@@ -123,6 +128,7 @@ body p{
     font-size: small;
     margin-left:20px;
     padding-top:25px;
+
    
     border-radius: 25px;
 
@@ -132,7 +138,7 @@ body p{
 
 #deathratemap{
     padding-top:25px;
-    height: 575px; 
+    height: 500px; 
     margin-left: 50%;
     display:inline-block;
     padding-right:75px;
@@ -151,6 +157,8 @@ body p{
     text-align: center;
     height: 150px;
     padding-bottom: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
    
 }
 

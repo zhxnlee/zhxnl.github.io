@@ -163,7 +163,7 @@
     },
     "tooltip": [
     {"field": "Cancer Type", "type": "nominal", "title": "Cancer Type"},
-    {"field": "Number of Deaths", "type": "quantitative","aggregate":"sum"}
+    {"field": "Number of Deaths", "type": "quantitative"}
   ]
   }}],
   

@@ -14,7 +14,7 @@
       "bind":{
         "input": "select",
         "options": [
-          null, 
+          "World", 
           "North America",
           "South America",
           "Europe",
@@ -84,6 +84,7 @@
 },
     {"filter": "YearSelection == null || datum.Year ==  YearSelection"},
     {"filter": "Continent_Selection == null || datum.Continents == Continent_Selection" }
+  
   ],
   "layer":[{"mark": {"type":"rule","strokeWidth":3},
   "encoding": {
@@ -142,7 +143,7 @@
     },
     "tooltip": [
     {"field": "Cause of Death", "type": "nominal", "title": "Cause of Death"},
-    {"field": "Number of Deaths", "type": "quantitative","aggregate":"sum"}
+    {"field": "Number of Deaths", "type": "quantitative"}
   ]
   }},
   {"mark": {"type":"point" , "filled": true,"size":60},
@@ -202,7 +203,7 @@
     },
     "tooltip": [
     {"field": "Cause of Death", "type": "nominal", "title": "Cause of Death"},
-    {"field": "Number of Deaths", "type": "quantitative","aggregate":"sum"}
+    {"field": "Number of Deaths", "type": "quantitative"}
   ]
   }}]
   ,
