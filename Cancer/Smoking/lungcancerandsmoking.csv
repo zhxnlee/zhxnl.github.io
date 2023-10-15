@@ -1,0 +1,241 @@
+measure,location,sex,age,cause,rei,metric,year,val,upper,lower
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1990,626585.3877556678,665419.3927997713,594185.5420302523
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1990,704983.0633862267,750385.6857165607,668428.2954183837
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1990,121322.25020581263,128214.74551886955,113846.97443565125
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1990,191596.3862193208,206800.57245636365,177188.41067819507
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1990,0.7924254694089989,0.8063725178940162,0.7782745658142043
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1990,0.8915565723124563,0.9066906860343067,0.8759075189828884
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1990,0.4423228185525896,0.465350396350478,0.41721779911575874
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1990,0.6982934536527075,0.7398760172146269,0.6575188477425088
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1993,672403.8760002125,703630.9591227276,641810.1666320242
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1993,755768.192129609,791430.2217324894,721809.8926478293
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1993,134818.46061446736,142523.10909040616,127042.50436771662
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1993,211125.6455702782,229602.83456268633,196153.01488239493
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1993,0.7927447829171642,0.8063231623349406,0.7790270689792224
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1993,0.8910157510263639,0.90643641088403,0.8753710421817806
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1993,0.44497729372484984,0.4663974062027584,0.4221228775289782
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1993,0.696649900789298,0.7373313795976287,0.6571995670588064
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1994,685528.325896324,715191.7404047145,655207.3523730816
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1994,770526.8851527126,806024.3454249924,737529.7100974375
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1994,138791.11934113636,146804.9758754608,130242.56644883922
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1994,216816.48134199186,233642.557504423,200385.28387508442
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1994,0.7924304665828421,0.806247401512692,0.7783480817975605
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1994,0.8906738929937458,0.9060119616756795,0.8748618535739415
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1994,0.4454563905429947,0.46684656170683164,0.4228411928175606
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1994,0.6957307186486525,0.7374131271018272,0.656434333511522
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1998,712348.2029277192,740432.7069160892,683246.5260801212
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1998,802523.7858138314,835079.8525260646,771410.0014024456
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1998,156592.47747677958,165469.60572012226,147211.00923205036
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1998,243363.6594387184,262691.76783505385,225903.8871896257
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1998,0.7892064827318744,0.802789807211136,0.7751213729505958
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1998,0.8891040793822955,0.9047755657677575,0.8734972431132725
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1998,0.44503380155043115,0.4651543040192603,0.42420588157903205
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1998,0.6915337946388891,0.7321628967014383,0.652081418176706
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2002,770909.5893956169,804670.5254812591,738459.6474762214
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2002,870715.3302412096,911304.8050636471,831932.3782833548
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2002,177378.27098337864,188804.55088218427,165418.87783349326
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2002,277068.9838608699,301763.30430424865,255589.64623831486
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2002,0.7858988443581073,0.7999102724352513,0.7721028066057701
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2002,0.8876396659261688,0.9039671954324681,0.871729164126001
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2002,0.44015041677090677,0.45967491667650284,0.4211140800624189
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2002,0.6874256311375175,0.7304226335191124,0.6474067261346428
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1992,651402.6086180402,685104.524770863,619896.7088270072
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1992,732418.5936136683,771646.1614905391,697041.5468296882
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1992,129884.86912674963,137346.1525480105,122107.79345977481
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1992,203707.44471444044,220642.02954162314,188552.49631915253
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1992,0.7926140685790688,0.8066299728149345,0.7787714915008204
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1992,0.8911778986996897,0.9065703968324329,0.8757976449384859
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1992,0.44487255240691337,0.46852191503377194,0.4200041950619612
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1992,0.6975190555815425,0.738006000393149,0.6586532101066919
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1991,637806.1926452981,673446.8151155403,605200.282377555
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1991,717377.8135642532,759644.188358022,681621.4715864918
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1991,125550.57598556289,132679.02218956087,117854.9959225301
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1991,197744.44553118336,214276.57139331466,182677.01383167502
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1991,0.7925718987207344,0.8065597885779614,0.7787069121820551
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1991,0.8914311398498621,0.9066202076325318,0.8757805551403929
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1991,0.44319920457352024,0.46629174020243336,0.4195261895525266
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1991,0.6978325078905618,0.7389307949429423,0.6570544330490115
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1995,695568.9356192393,723592.0737548722,667513.7367017627
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1995,782092.5787814937,816747.5393478305,749295.4603962483
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1995,143731.10586389826,152309.1963894225,134696.48064104083
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1995,223677.9694818034,241034.07441615884,206287.47212802654
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1995,0.7920189908007237,0.8061404352898891,0.7778888448786101
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1995,0.8905303688372185,0.9058221887968114,0.87498552529892
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1995,0.4467511220449244,0.46859319429308754,0.4239721191586901
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1995,0.6951073891412274,0.736830357025271,0.6554913755040712
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2006,822920.7485782404,860225.8847011252,785638.8571758639
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2006,933345.0479045374,976965.0076605871,890678.7999714644
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2006,195530.7523490713,207206.4431314627,181532.2526518253
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2006,308483.96449593874,334827.9904880038,284161.40108670894
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2006,0.7808199370767336,0.7952744583089576,0.7664266594604902
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2006,0.8855921936688255,0.9034075021022703,0.8688217699918219
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2006,0.43255719514854796,0.4524556359542196,0.413554951579415
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2006,0.6823676332796516,0.7282460888012464,0.6411181451783771
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2010,901486.5162847444,946510.4128546141,857323.7684667115
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2010,1028448.8291085026,1084321.961433324,973854.8662651448
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2010,212730.8522868192,226831.93653737663,195172.4886880846
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2010,341404.69766516524,373164.2268603759,311656.1752049489
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2010,0.7742909742273715,0.7889673377145514,0.7598258072988815
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2010,0.8833469574617537,0.9021816165999188,0.8658431686399708
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2010,0.42005594916944017,0.4403370462241974,0.4002159576699361
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2010,0.6740629642581726,0.7221901512720319,0.6321719582417938
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2014,952816.0495769123,1012944.1411694733,893500.6561024375
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2014,1091573.9610267058,1160851.9030837668,1023303.05961252
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2014,229163.27263085544,245016.44352997563,210093.89543200293
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2014,372412.9159026803,408618.31614789064,337362.32489549887
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2014,0.7683597187178403,0.7833151328816095,0.7533254086737895
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2014,0.8802727893970979,0.9001954410066786,0.862204666404097
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2014,0.40981360008103473,0.4305082817845885,0.39029442657934876
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2014,0.6658968477143853,0.7162010603019346,0.6231860884034142
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2000,743048.5673438925,773964.0115204124,714868.9963173461
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2000,837869.7844793664,872893.8424226582,803991.3304336636
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2000,167352.45091818125,177020.51639794165,157334.80976899734
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2000,260525.6864796496,281144.8100037987,241341.3028062493
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2000,0.7878439912956823,0.8022265506746461,0.7739556467576771
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2000,0.8883794494248175,0.9047765630547075,0.8728043660914794
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2000,0.4426415857540818,0.4622982436233723,0.42165748145581583
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2000,0.6889979368857697,0.7310488955927692,0.649187487545167
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1996,699019.2974129803,725663.6479227648,673605.7116671137
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1996,786544.9971536283,816648.5773919333,756664.8602990459
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1996,147901.90862131692,156203.6058620472,139260.51553718222
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1996,230216.83764616886,248089.4875760034,214459.54998908585
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1996,0.7910843182867089,0.8050085574422434,0.7769800195250935
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1996,0.8901344249937767,0.9055285076791711,0.8745107579304394
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1996,0.4459180844961396,0.467549554729018,0.4249933490973415
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1996,0.6939875459097973,0.7353629539677065,0.6537900345212071
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1999,728644.4059943212,757104.0529338198,699941.9858438182
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1999,821081.9354361738,853015.273314687,787380.923444643
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1999,161669.53512942078,171089.209228015,151923.25611283153
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1999,251268.7139996384,270788.13650850975,231826.12918373762
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1999,0.7887391850963362,0.8026054794608871,0.7746725121149537
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1999,0.8888019567669466,0.9048690350417868,0.8733127426873172
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1999,0.44421867651929836,0.4638540301608047,0.4232263006975088
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1999,0.6903106108474258,0.7312519545638356,0.6504588248874468
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2018,1029210.3181509937,1128132.069810082,937784.4037880112
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2018,1181061.913050098,1292346.6578986982,1076152.2688430778
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2018,247689.13858309324,268364.8040003322,226046.49510610546
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2018,411470.27503824973,461324.0951219268,366941.22909583006
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2018,0.7630515785995065,0.7786632050538953,0.7479495075052651
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2018,0.8756931125196753,0.8964389640977158,0.857080639668285
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2018,0.39297121705845267,0.4139181759525414,0.3718084277428834
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2018,0.6525823445797049,0.7036029433357068,0.6068367826312498
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1997,702808.9441692139,729216.2562535766,676383.0601861179
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1997,791379.4557926442,822502.9470447665,761739.0571605465
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,1997,152244.6549448376,160803.61887448278,143123.4849147822
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,1997,236841.53534786816,255649.49176428898,220194.83044291177
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1997,0.7900319535257131,0.8037558893550398,0.7760741966197973
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1997,0.8895858505159391,0.9053244878112998,0.8742312424571431
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,1997,0.4453610481315978,0.465877907323039,0.424604897760744
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,1997,0.6927614393103086,0.7345004147245573,0.6533105080019355
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2001,754200.9290758695,789369.477035563,719448.525651751
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2001,851037.7186454549,890832.7311024759,812250.0568787485
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2001,171934.6985609558,182086.89041667656,161287.30837241397
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2001,268069.6472832927,290267.69047212286,248100.14214554886
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2001,0.7869576332183603,0.8011235091568212,0.7729520596335936
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2001,0.887996851200448,0.9043778050476847,0.8719520570692654
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2001,0.4413758731145052,0.462002012683528,0.4222639336794319
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2001,0.6880718636269049,0.730160395067495,0.6487675540402691
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2003,786407.9020873288,823050.61498312,752216.0665606544
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2003,888969.8528894145,931182.2070016974,851294.9715419782
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2003,182187.56260603154,193269.30093904212,170324.75536498034
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2003,285103.4620840313,311345.3760727652,262846.8815656009
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2003,0.7849081525210502,0.799349239926616,0.7707427221719448
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2003,0.8872725631128121,0.9040738371904616,0.8710360670621276
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2003,0.43882546838328895,0.45846541498282994,0.4193473066686941
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2003,0.6866496325152142,0.7298016413992935,0.6463562934899495
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2005,818712.7669672304,859949.3076032022,782137.6444374964
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2005,926939.7381159851,975421.3969206342,882876.9863081636
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2005,191060.83884023954,202883.48968307354,177121.88870895153
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2005,300919.7843118267,325981.545564712,276688.1237311198
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2005,0.7829564339503204,0.7971264195588443,0.7689702779769735
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2005,0.8864499468040612,0.9036544267461603,0.8696009201726599
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2005,0.4341954200449394,0.4545556232534234,0.4150322538065613
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2005,0.6837871550676836,0.7296293078351009,0.6423753711425504
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2009,881357.3073953964,922983.5155567168,837160.0829752616
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2009,1004393.6266829714,1055021.830132685,953106.2923974306
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2009,210443.2710436541,224415.82245672282,193475.06502834358
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2009,335155.9372286533,364284.81061046984,305988.7793668987
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2009,0.775478258017263,0.7904681399667461,0.7612693915567267
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2009,0.8837318166852314,0.9027402176538301,0.8664288464880903
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2009,0.4249680075750149,0.4433302284699745,0.40525913623545456
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2009,0.6767651937083262,0.7242596683280771,0.6352522126749515
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2004,800178.4619802542,836110.5808819201,764199.8015333454
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2004,905060.1439001376,948505.7134423181,863224.4731863032
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2004,187291.49508168345,199498.93450964204,174273.1145662562
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2004,293842.644269911,318256.5996883273,269692.331398173
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2004,0.7840867802264028,0.7982049307105342,0.7701922182522682
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2004,0.8868539441932678,0.9038773063737758,0.8704341173630302
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2004,0.4370216383138205,0.4563462464511545,0.4180697577030977
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2004,0.6855780229950778,0.7297985041376083,0.6447879174049888
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2008,862564.0093370473,904547.071748555,819906.1626876192
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2008,981426.595971344,1027644.1536019834,932748.5345018138
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2008,205630.84610316216,218571.31818743804,189515.91107658445
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2008,326386.7579953102,354487.54518881906,298819.0709604086
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2008,0.7771996000296315,0.7920097413611212,0.7628439788905811
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2008,0.8843037924836312,0.9026186554687244,0.8670154520930473
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2008,0.42762545356775417,0.44796858114250465,0.40810199783165135
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2008,0.678692663239733,0.7254454868020314,0.6377449573350533
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2007,839258.4440516206,875591.0118775998,800834.6094081325
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2007,953436.0498636739,996483.5033748779,908783.49973681
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2007,200591.70561403377,212869.97866036987,185298.68817965232
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2007,317428.05264829757,345036.7804960545,290600.00123658765
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2007,0.7789368274127562,0.7934836919172062,0.7645709697437217
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2007,0.8849026481258236,0.9030971968162954,0.8679443695704004
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2007,0.4301234933170218,0.4502466077330322,0.4109539968244206
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2007,0.6805984294799664,0.7266462945485035,0.6387004375470857
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2012,929731.5054352975,983609.5821096989,881428.4928554993
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2012,1063316.2018364577,1121716.3375638265,1004187.1964865304
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2012,220734.1759481489,235411.7781251371,202349.63240615782
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2012,355989.1348921036,389143.91147968895,322541.27289238275
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2012,0.7713553087128233,0.7858919528803568,0.7572566724027092
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2012,0.8821955877172679,0.901753191609393,0.8645652144925589
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2012,0.4156883362638084,0.4344086059219854,0.39728811970601646
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2012,0.6703505278144186,0.7195146827885563,0.6282127078310501
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2011,915415.1920544947,967004.4423117939,863267.0245683064
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2011,1045735.5415718096,1104317.9453085102,984901.7580121798
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2011,217250.1105531197,232011.52135102896,199778.6434249647
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2011,349680.8448015504,381263.9885839444,317781.1618724336
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2011,0.7728260331526978,0.7873661207236596,0.7581988590333752
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2011,0.8828564797389682,0.90229432658543,0.8652572234365555
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2011,0.41775308776897,0.4382073203464786,0.39943735958227117
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2011,0.6723272448273441,0.7209151619262028,0.6300460430074719
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2015,973948.4930533225,1037704.9491119158,910847.7893254758
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2015,1116561.1668333723,1191274.7310816352,1044016.9435828251
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2015,231727.24261331846,248463.1147164904,211684.4881387315
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2015,378788.1523491279,418304.5407855549,341542.7268808148
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2015,0.7671238320702908,0.7823815265753975,0.7522594232110315
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2015,0.879459525229315,0.8993863561134248,0.8611195205723553
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2015,0.40577755438005314,0.42638736556531326,0.38560316695786034
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2015,0.6631893780214385,0.7135210984644861,0.6197616077829831
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2013,940806.5089111251,996397.3076406142,884070.8493421342
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2013,1077152.496211905,1140236.4971761769,1011485.6012610632
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2013,224557.31934213015,239227.3197925638,205444.32372992462
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2013,363265.4040174164,398068.9000753334,329288.47980252694
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2013,0.7696506509534861,0.7846011818054686,0.7552546653535095
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2013,0.8812082109916205,0.9008807198491007,0.8632378630978402
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2013,0.4131495588305864,0.43225947148895943,0.3944837391746231
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2013,0.6682692955608798,0.7183128429670507,0.6255022713787295
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2019,1056287.9227087868,1166302.5891410627,952384.1656371348
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2019,1212963.9071257177,1328634.019522518,1097191.5972168169
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2019,255433.18926870663,277099.0221444368,230214.57133785373
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2019,427172.82852885366,481199.34645686107,375702.2442408625
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2019,0.7619564011264751,0.7776999033243416,0.7458338128827687
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2019,0.8750570046219043,0.8959779946220036,0.8565073148984541
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2019,0.3892816704518118,0.4092856522578694,0.3671158536960464
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2019,0.6507247784372536,0.7012361704573459,0.6045784722398737
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2017,1005788.1807601585,1090770.7980551978,925069.7852774749
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2017,1153282.2655992052,1249893.0473498064,1059161.967453135
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2017,240548.21171646923,259166.51223698806,217252.50372693164
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2017,396661.1158318376,442725.8101710066,352489.1609364582
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2017,0.7645469101834133,0.7804648618794835,0.7496354808061784
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2017,0.8766920820450448,0.8971981445509429,0.8581026352691987
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2017,0.397435035479538,0.41739117315389224,0.3767257019593762
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2017,0.6551888680278776,0.705360923615472,0.6101616258472439
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2016,990533.9027084671,1066176.4895604795,918892.9194550865
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2016,1135608.9902495425,1226317.642679209,1057026.0978738673
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Number,2016,235586.07776494767,252559.96198714132,216323.3772547692
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Number,2016,386389.2024171252,426628.0013392067,347288.124776778
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2016,0.7659328946006381,0.7808835967507154,0.7509544492359336
+Deaths,Global,Male,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2016,0.8781395599018428,0.8986779165484791,0.8598475970013634
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",Smoking,Percent,2016,0.40210100891915956,0.4220029315092927,0.38226850335118046
+Deaths,Global,Female,All ages,"Tracheal, bronchus, and lung cancer",All risk factors,Percent,2016,0.6593561654883635,0.7096470185990582,0.6156396459019614
