@@ -1,0 +1,64 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "title": {"text":"Lung Cancer Deaths by Risk Factor", "fontSize": 20, "offset": 20,"subtitle":"Number of Deaths for Lung Cancer by risk factors","subtitleColor": "grey","subtitlePadding":10},
+  
+    "data": {"url": "https://raw.githubusercontent.com/zhxnlee/zhxnl.github.io/main/Cancer/Smoking/allriskfactors.csv"},
+    "params": [{
+        "name": "YearSelection",
+        "value": 1990,
+        "bind": {
+          "input": "range",
+          "min": 1990,
+          "max": 2019,
+          "step": 1,
+          "name": "Year     "
+        }
+      },
+      
+      {
+        "name": "Gender",
+        "value":"Male",
+        "bind":{
+          "input": "select",
+          "value": "Male",
+          "options": ["Male", "Female"],"name": "Gender"}}],
+    "mark": "bar",
+    "transform": [{"filter": "datum.year == YearSelection"},
+    {"filter": "datum.sex == Gender"}],
+    "encoding": {
+      "x": {"field": "val", "type": "quantitative","aggregate":"sum"},
+      "y": {"field": "rei", "type": "nominal","sort": "-x","title": "Risk factor"},
+      "color": {"field": "rei","legend":{"title":"Risk Factors"},
+      "scale": {"range":[    "#7E57C2", 
+        "#5E35B1",
+        "#E3F2FD",
+        "#90CAF9",
+        "#2196F3",
+        "#1565C0",
+        "#B2EBF2",
+        "#26C6DA",
+        "#0097A7",
+        "#006064",
+        "#E8F5E9",
+        "#A5D6A7",
+        "#4CAF50",
+        "#2E7D32",
+        "#1B5E20",
+        "#F9FBE7",
+        "#DCE775",
+        "#C0CA33",
+        "#827717",
+        "#FFE082",
+        "#FFB300",
+        "#BCAAA4",
+        "#795548",
+        "#3E2723",
+        "#90A4AE",
+        "#546E7A"]}},
+      "tooltip": [
+      {"field": "rei", "type": "nominal", "title": "Risk factor"},
+      {"field": "val", "type": "quantitative","aggregate":"sum","format": ".0f", "title":"Number of deaths"}
+    ]
+    },
+    "height": 350, "width":350
+  }
