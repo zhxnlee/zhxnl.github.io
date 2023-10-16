@@ -106,7 +106,7 @@ body p{
 
 .cancerpopulationtitle h1{
     padding-top: 100px;
-    color: rgb(77, 154, 122);
+   
 }
 
 .cancerpopulationtitle h3{
@@ -231,13 +231,13 @@ body p{
 }
 
 .trendcancerdeathtypecontainer{
-    padding-top:125px;
+    padding-top:200px;
 }
 
 #trendcancerdeathtype{
     position:absolute;
     width: 58%; 
-    height: 625px; 
+    height: 650px; 
     float: right;
     display:inline-block;
     padding-right: 25px;
@@ -254,7 +254,7 @@ body p{
 .trendcancerdeathtypelabel{
     position: absolute;
     margin-left:42%;
-    padding-top:630px;
+    padding-top:650px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size:small;
@@ -354,7 +354,7 @@ body p{
 }
 
 .conclusion{
-    padding-top: 25px;
+    
     padding-left: 100px;
     font-family: Playfair Display,Georgia,Times New Roman,"Liberation Serif",serif;
     position: relative;
@@ -363,3 +363,12 @@ body p{
     padding-bottom: 300px;
 }
 
+.References{
+    
+    padding-left: 100px;
+    font-family: Playfair Display,Georgia,Times New Roman,"Liberation Serif",serif;
+    position: relative;
+    margin-right: 30%;
+    height: 125px;
+    padding-bottom: 300px;
+}

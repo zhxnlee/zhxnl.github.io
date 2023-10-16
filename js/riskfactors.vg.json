@@ -26,7 +26,7 @@
     "transform": [{"filter": "datum.year == YearSelection"},
     {"filter": "datum.sex == Gender"}],
     "encoding": {
-      "x": {"field": "val", "type": "quantitative","aggregate":"sum"},
+      "x": {"field": "val", "type": "quantitative","aggregate":"sum","title":"Total Number of Deaths"},
       "y": {"field": "rei", "type": "nominal","sort": "-x","title": "Risk factor"},
       "color": {"field": "rei","legend":{"title":"Risk Factors"},
       "scale": {"range":[    "#7E57C2", 
